@@ -5,10 +5,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">UNLIMITED </h3>
+  <h3 align="center"> YouTube DataGetter </h3>
 
   <p align="center">
-    README for the Unlimited game [Mining game]
+    README for the YouTube Api DataGetter [Mining game]
     <br />
     <a href="https://github.com/target-software/Unlimited-Game-MiningGame"><strong>Explore the docs »</strong></a>
     <br />
