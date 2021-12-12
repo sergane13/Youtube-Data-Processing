@@ -1,6 +1,6 @@
 import numpy as np
-from auxilary_functions import *
-from channel_class import Channel
+from YT.auxilary_functions import *
+from YT.channel_class import Channel
 import time
 
 

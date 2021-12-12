@@ -1,5 +1,5 @@
-from auxilary_functions import *
-from video_class import Video
+from YT.auxilary_functions import *
+from YT.video_class import Video
 import statistics
 import numpy as np
 import time

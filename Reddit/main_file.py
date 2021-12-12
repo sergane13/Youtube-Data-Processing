@@ -1,4 +1,4 @@
-from Oauth_for_reddit import *
+from Reddit.Oauth_for_reddit import *
 from textblob import TextBlob
 import pprint
 import nltk

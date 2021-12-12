@@ -1,23 +1,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/target-software/Unlimited-Game-MiningGame">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">UNLIMITED </h3>
+  
+  <h3 align="center">Youtube Data Processing </h3>
+  <h5 align="center">Built in 2020 August </h5>
 
   <p align="center">
-    README for the Unlimited game [Mining game]
-    <br />
-    <a href="https://github.com/target-software/Unlimited-Game-MiningGame"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/target-software/Unlimited-Game-MiningGame">View Demo</a>
-    ·
-    <a href="https://github.com/target-software/Unlimited-Game-MiningGame/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/target-software/Unlimited-Game-MiningGame/issues">Request Feature</a>
+    Multithreading module that retrieves data from youtube and processes it locally to display most relevant YouTubers based on their likes, dislikes, views, subscribers.
   </p>
 </p>
 
@@ -36,16 +25,11 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -54,38 +38,45 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="images/img1.png" alt="Logo" width="900" height="700">
 
-Unlimited Game ... The next 2D social strategy game with an interconnected economy system that teach users basic finance and an entrepreneurial mindset.
+Built as an initial idea to create social media tools for businesses to target influencers that are right for their brand. The project stopped after initial market research.
+
+You retrieve data from youtube using google APIs and then manipulate the data to create plots for easy understanding of the information.
+
+Contains also a Reddit data getter.
 
 ### Built With
 
-* [Unity](https://unity.com/)
+* Python
 <!-- GETTING STARTED -->
+
+### Packages
+* numpy
+* pymongo
+* matplotlib
+
 ## Getting Started
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/sergane13/Youtube-ApiDataGetter
    ```
-2. Open project in Unity
+2. Open project in Pycharm or any other IDE
 
+3. Replace credentials with yours
+   ```sh
+    mongodb.py --> L:21 Your acces URL
+    auxiliary_functions.py --> L:95 - 99 Your api/apis [I suggest to use one api]
+   ```
 
+4. Run main_yt.py
 
-<!-- USAGE EXAMPLES -->
-## Usage
+    <img src="images/img2.png" alt="Logo" width="300" height="100">
 
-More detailes can be found on [Google Drive](https://docs.google.com/document/d/1CHdDfEm5BDM8vAbeubNgLF-Et8YwMgCbreD4CC6dSfo/edit)
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/target-software/Unlimited-Game-MiningGame/issues) for a list of proposed features (and known issues).
-
-
+5. Wait a few secconds for program to run and then you will see the plot
 
 <!-- CONTRIBUTING -->
 ## Project structure
@@ -93,32 +84,18 @@ See the [open issues](https://github.com/target-software/Unlimited-Game-MiningGa
 ```bash
 < PROJECT ROOT >
    |
-   |-- Animations                               
-   |-- Editor    
-   |-- GUI
-   |-- Materials
-      | -- Mine Blocks
-      | -- Robot asociated
-   |-- Meshes
-   |-- Prefabs
-      | -- Block
-      | -- Robot
-   |-- Resources
-      | -- Blocks
-      | -- Preview Line
-      | -- Robot Design
-      | -- Waypoints Robot
-   |-- Scenes
-   |-- Scriptable Objetcs
-      | -- Resources
-      | -- Robots
-   |-- Scripts
-      | -- Manager Scripts
-      | -- Mine Generation
-      | -- Robot Movement
-      | -- Scriptable Objetcts
-      | -- Touch
-   |-- Sounds
+   |-- Reddit
+      |-- main_file.py
+      |-- Oauth_for_reddit.py
+   |-- YT
+      |-- auxiliary_functions.py
+      |-- channel_class.py
+      |-- data_acquisition.py
+      |-- main_yt.py
+      |-- mongodb.py
+      |-- plot_generator.py
+      |-- video_class.py
+   |-- Readme                            
   ************************************************************************
 ```
 
@@ -133,3 +110,8 @@ Project Template adapted from [Othneil Drew](https://github.com/othneildrew) / [
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: images/screenshot.png
+
+
+## Contact
+* You can find me on discord : Serban#0756
+* Project is open source for any kind of use as long as you keep the initial creator

@@ -9,7 +9,7 @@ def seconds_converter(duration):
 
     """
 
-    This is a function that process the a strig and convert it to a more workable format
+    This is a function that process a strig and convert it to a more workable format
     It is used to extract the duration from yt requests in a more approachable way
 
     @:param duration:
@@ -87,14 +87,16 @@ def api_key(number):
     @:return:
         The api key
 
+    There are 3 api keys because I used 3 different google accounts
+
     """
 
     if number == 1:
-        return 'AIzaSyC6ibX0SQssEvI33QtMKtPJCAvAFNj8zik'
+        return '-api 1-'
     elif number == 2:
-        return 'AIzaSyBRz93Xj2gON35jqVdxpR1f_IOLAIiynOU'
+        return '-api 2-'
     elif number == 3:
-        return 'AIzaSyDRNb6ipudAK40bU4833mzkDn-hSdPsOdg'
+        return '-api 3-'
 
 
 def extracting_data(url):

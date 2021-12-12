@@ -1,5 +1,10 @@
 import matplotlib.pyplot as plt
-from mongodb import *
+from YT.mongodb import *
+
+
+"""
+    Plot data received
+"""
 
 
 def show_plots(subject):

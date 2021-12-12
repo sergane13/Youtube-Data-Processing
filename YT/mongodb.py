@@ -18,7 +18,7 @@ def routine_mongodb():
 
     """
 
-    url = f'mongodb+srv://root:tardis1313@cluster0.5jll2.mongodb.net/youtube?retryWrites=true&w=majority'
+    url = f'#######################-Change here with your api-#########################'
     cluster = MongoClient(url)
     db = cluster["youtube"]
     collection = db["yt data"]
