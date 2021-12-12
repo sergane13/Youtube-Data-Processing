@@ -1,7 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
-  
+<p align="center"> 
   <h3 align="center">Youtube Data Processing </h3>
   <h5 align="center">Built in 2020 August </h5>
 
