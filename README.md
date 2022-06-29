@@ -112,5 +112,4 @@ Project Template adapted from [Othneil Drew](https://github.com/othneildrew) / [
 
 
 ## Contact
-* You can find me on discord : Serban#0756
 * Project is open source for any kind of use as long as you keep the initial creator
